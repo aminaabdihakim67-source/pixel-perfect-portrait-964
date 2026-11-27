@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application architecture
+- Keep prototype state in the ProofPath context, hydrating browser storage in effects, so navigation and language changes preserve entered data without SSR mismatches.
+- Store bilingual text as English/Somali pairs and canonical field identifiers, so switching language translates labels without mutating user content.
+- Keep competency discovery and assessment scoring as pure, tested functions; prototype evaluation is transparent keyword matching, not independent verification.
+- Each named section is a TanStack leaf route sharing the root navigation and footer, so every section is directly addressable.
