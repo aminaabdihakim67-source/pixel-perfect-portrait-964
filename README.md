@@ -48,7 +48,7 @@ Track 2, covering legal and financial access, is a potential future development 
 
 Explore ProofPath:
 
-https://pixel-perfect-portrait-964.lovable.app
+[https://proofpath-ilo-hackathon.lovable.app](https://proofpath-ilo-hackathon.lovable.app)
 
 ## Important Disclaimer
 
